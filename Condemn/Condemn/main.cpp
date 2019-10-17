@@ -9,6 +9,21 @@
 #include <gtc\matrix_transform.hpp>
 #include <gtc\type_ptr.hpp>
 
+
+//TESTFORIMPLEMENTEDMAIN
+//#include "SDL.h"
+//#include "GameStateManager.h"
+//#include "Menu.h"
+//int main(int argc, char* argv[])
+//{
+//	GameStateManager* manager = new GameStateManager();
+//	manager->SetState(new Menu());
+//	manager->GameLoop();
+//	delete manager;
+//	return 0;
+//}
+
+
 // Window dimensions
 const GLint WIDTH = 800, HEIGHT = 600;
 const float toRadians = 3.14159265f / 180.0f;
